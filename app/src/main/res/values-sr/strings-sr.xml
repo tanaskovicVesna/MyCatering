@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ketering</string>
+    <string name="activity_main_name">Lista porudžbina</string>
+    <string name="activity_main_toolbar_title">Lista porudžbina</string>
+    <string name="fragment_detal_action_add">Izbriši</string>
+    <string name="drawer_home">MojKetering</string>
+    <string name="drawer_settings">Podešavanja</string>
+    <string name="drawer_about">O aplikaciji</string>
+    <string name="drawer_home_long">Prikaži sve porudžbine</string>
+    <string name="drawer_about_long">O aplikaciji</string>
+    <string name="drawer_open">Otvori Navigation Drawer</string>
+    <string name="dialog_about_title"> O aplikaciji</string>
+    <string name="dialog_about_message"> Aplikaciju je napravila Vesna Tanasković</string>
+    <string name="dialog_about_yes">Da</string>
+    <string name="dialog_about_no">Ne</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_close">Zatvori Navigation Drawer</string>
+    <string name="splash_screen">Splash ekran</string>
+    <string name="notification_title">Stavka je poručena</string>
+    <string name="notification_text">Selektovana stavka je poručena</string>
+    <string name="list_heading">Lista porudžbina</string>
+    <string name="activity_item_detal_action_add">Dodaj</string>
+    <string name="dialog_title">Obaveštenje</string>
+    <string name="dialog_message">Da li želiš da zatvoriš MojKetering Aplikaciju?</string>
+    <string name="dialog_close">Zatvori</string>
+    <string name="category_type1">Slano pecivo&#160;&#160;</string>
+    <string name="category_type2">Slatko pecivo&#160;&#160;</string>
+    <string name="other"> </string>
+    <string name="product">Proizvod</string>
+    <string name="description">Opis</string>
+    <string name="dialog_add_item_title">Dodaj proizvod</string>
+    <string name="dailog_image">Slika</string>
+    <string name="dialog_category">Kategorija</string>
+    <string name="button_add">Dodaj</string>
+    <string name="button_cancel">Otkaži</string>
+    <string name="button_edit">Izmeni</string>
+    <string name="dialog_title_delete">Obriši</string>
+    <string name="dialog_message_delete">Da li želiš da obrišeš stavku?</string>
+    <string name="add_item">Nova porudžbina je dodana</string>
+    <string name="ordered_item">Stavka je poručena</string>
+    <string name="item_delete">Stavka je obrisana</string>
+    <string name="item_edit">Stavka je izmenjena</string>
+    <string name="price">Cena:</string>
+    <string name="exception_price">Polje cene je neophodno popuniti. U slučaju da je cena nula, unesite .0</string>
+    <string name="exception_name">Polje naziva proizvoda je neophodno popuniti</string>
+</resources>

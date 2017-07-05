@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/width_zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent"
+                        android:text="@string/product"/>
+
+                    <EditText
+                        android:id="@+id/product_edit_name"
+                        android:layout_height="match_parent"
+                        android:inputType="textFilter"
+                        android:layout_weight="2"
+                        android:layout_width="@dimen/width_zero" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="@dimen/width_zero"
+                        android:text="@string/price" />
+
+                    <EditText
+                        android:id="@+id/product_edit_price"
+                        android:inputType="numberDecimal"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:layout_width="@dimen/width_zero" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="@dimen/width_zero"
+                        android:text="@string/description" />
+
+                    <EditText
+                        android:id="@+id/product_edit_description"
+                        android:inputType="textMultiLine"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:layout_width="@dimen/width_zero" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="@dimen/width_zero"
+                        android:text="@string/dailog_image"/>
+
+                    <Spinner
+
+                        android:id="@+id/product_edit_image"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:layout_width="@dimen/width_zero">
+
+                    </Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="@dimen/width_zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/dialog_category" />
+
+                    <Spinner
+                        android:id="@+id/product_edit_category"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:layout_width="@dimen/width_zero">
+
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_edit"
+            android:layout_marginLeft="@dimen/margin_edit"
+            android:layout_marginRight="@dimen/margin_edit"
+            android:layout_marginBottom="@dimen/margin_edit"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/edit_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="@string/button_add"/>
+
+            <Button
+                android:id="@+id/edit_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/big_margin"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="@string/button_cancel"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

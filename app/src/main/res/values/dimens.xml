@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="image_height">170dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="text_size">22sp</dimen>
+    <dimen name="padding_right">5dp</dimen>
+    <dimen name="padding_big_top">20dp</dimen>
+    <dimen name="text_medium_size">17sp</dimen>
+    <dimen name="number_size">16sp</dimen>
+    <dimen name="margin">25dp</dimen>
+    <dimen name="big_margin">50dp</dimen>
+    <dimen name="drawer_image">40dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="text_normal_size">20sp</dimen>
+    <dimen name="list_height">544dp</dimen>
+    <dimen name="margin_large">30dp</dimen>
+    <dimen name="navlist_width">280dp</dimen>
+    <dimen name="margin_medium">10dp</dimen>
+    <dimen name="width_zero">0dp</dimen>
+    <dimen name="margin_edit">8dp</dimen>
+    <dimen name="zero">0dp</dimen>
+</resources>

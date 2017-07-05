@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="images">
+        <item> </item>
+        <item>pogacice.jpg</item>
+        <item>kiflice.jpg</item>
+        <item>sendvici.jpg</item>
+        <item>puzici.jpg</item>
+        <item>stapići.jpg</item>
+    </string-array>
+</resources>
